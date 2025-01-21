@@ -11,3 +11,5 @@ See the shell being used: echo $SHELL
 
 See all the installed shells: cat /etc/shells
 
+**To change default login shell:** chsh
+
