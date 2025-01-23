@@ -33,3 +33,8 @@ touch init_design	#creates an empty file
 touch aaa.txt		#creates a blank file
 nano aaa.txt		#opens the text file for editing
 cat aaa.txt		#prints the contents inside the file
+
+file aaa.txt		#shows the file type
+
+#cat + less command
+cat /etc/services | less
