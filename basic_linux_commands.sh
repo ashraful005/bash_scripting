@@ -25,6 +25,8 @@ mkdir -p a/b/c/d	#creates nested directory
 ls		#Lists all the files inside a directory
 ls -ltr		#Lists all the files inside a directory with respect to timestamp
 ls -ltra	#Lists the hidden files as well
+ls -lS		#Lists files according to their size
+ls -lSh		#Lists files according to their size in human readable format
 
 #File creation 
 touch init_design	#creates an empty file
