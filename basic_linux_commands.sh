@@ -25,3 +25,9 @@ mkdir -p a/b/c/d	#creates nested directory
 ls		#Lists all the files inside a directory
 ls -ltr		#Lists all the files inside a directory with respect to timestamp
 ls -ltra	#Lists the hidden files as well
+
+#File creation 
+touch init_design	#creates an empty file
+touch aaa.txt		#creates a blank file
+nano aaa.txt		#opens the text file for editing
+cat aaa.txt		#prints the contents inside the file
