@@ -38,3 +38,7 @@ file aaa.txt		#shows the file type
 
 #cat + less command
 cat /etc/services | less
+cat aaa.txt bbb.txt 	#concatenates two files
+more 			#almost same as less command
+less			#can be used to print small amount of texts from a file
+pr			#same as 'cat'
