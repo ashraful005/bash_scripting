@@ -16,3 +16,6 @@ which pwd 	#Shows the pwd path
 whereis pwd	#Shows both binary and documentation path of pwd
 whereis -b pwd	#Shows only the binary pwd path
 whereis -m pwd	#shows the documentation or man page path of pwd
+whoami		#shows the username of the current user
+
+mkdir linux_practice	#creates directory
