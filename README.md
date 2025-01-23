@@ -13,3 +13,4 @@ See all the installed shells: cat /etc/shells
 
 **To change default login shell:** chsh
 
+**cat:** concatenates the contents of one or more files and shows a standard output
