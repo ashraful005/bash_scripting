@@ -19,3 +19,9 @@ whereis -m pwd	#shows the documentation or man page path of pwd
 whoami		#shows the username of the current user
 
 mkdir linux_practice	#creates directory
+mkdir -p a/b/c/d	#creates nested directory
+
+#Listing
+ls		#Lists all the files inside a directory
+ls -ltr		#Lists all the files inside a directory with respect to timestamp
+ls -ltra	#Lists the hidden files as well
