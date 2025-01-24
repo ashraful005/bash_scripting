@@ -54,3 +54,14 @@ sort -u				#Unique comparisons only
 
 head out.txt -n 3		#prints first 3 lines
 tail out.txt -n 3		#prints last 3 lines
+
+#Pattern matching
+grep tcp /etc/services		#prints the lines matching pattern 'tcp'
+grep -v tcp /etc/services	#negation of logic, shows the lines without 'tcp'
+
+grep tcp /etc/services | wc -l	#gives line-count 
+grep -v tcp /etc/services | wc -l
+
+wc -l				#gives line-count
+wc -n				#gives character-count
+wc -L				#gives max-line length
