@@ -45,4 +45,12 @@ pr			#same as 'cat'
 
 cat aaa.txt bbb.txt > out.txt 	#concatenation
 cat > write.txt			#writing into a file
-cat >> write.txt
+cat >> write.txt		#appends text to a file
+
+#Sorting
+sort -n 			#Numeric sort
+sort -r				#Reverses the comparisons
+sort -u				#Unique comparisons only
+
+head out.txt -n 3		#prints first 3 lines
+tail out.txt -n 3		#prints last 3 lines
