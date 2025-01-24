@@ -42,3 +42,7 @@ cat aaa.txt bbb.txt 	#concatenates two files
 more 			#almost same as less command
 less			#can be used to print small amount of texts from a file
 pr			#same as 'cat'
+
+cat aaa.txt bbb.txt > out.txt 	#concatenation
+cat > write.txt			#writing into a file
+cat >> write.txt
